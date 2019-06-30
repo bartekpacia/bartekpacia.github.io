@@ -6,3 +6,5 @@ layout: home
 title: Articles
 permalink: /articles/
 ---
+
+From time to time I like to write something, be it programming, games or my thoughts.
