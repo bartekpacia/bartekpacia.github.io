@@ -120,11 +120,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($color-accent, 15%);
+    color: $color-accent;
   }
 
   &:hover {
-    color: $text-color;
+    color: $color-accent;
     text-decoration: underline;
   }
 
