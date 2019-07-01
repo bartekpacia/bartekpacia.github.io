@@ -17,7 +17,7 @@ to suit my needs.
 As I said before, I plan to blog a little so I picked Jekyll to help me with it.
 I don't have much experience with _static site generators_, but after reading some docs
 and watching a few YT tutorials I feel confident enough to alter Jekyll's default `minima`
-theme to suit my needs
+theme to suit my needs.
 
 So that's my first non-dummy blogpost looks like. Huh, it wasn't that bad.
 

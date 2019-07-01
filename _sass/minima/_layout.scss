@@ -208,6 +208,15 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
+  &.date-published {
+    margin-right: 2px;
+  }
+
+  &.category {
+    background-color: $grey-color-light;
+    padding: 2px 3px;
+  }
 }
 
 .post-link {
