@@ -23,6 +23,8 @@ twitter_username: bartekpacia
 github_username: bartekpacia
 
 collections_dir: collections
+collections:
+  projects:
 
 # Build settings
 markdown: kramdown
