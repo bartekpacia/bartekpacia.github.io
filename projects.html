@@ -2,13 +2,20 @@
 layout: default
 title: Projects
 permalink: /projects/
+projects:
+- title: Discover Rudy
+  photo: https://i.imgur.com/h798TMC.png
+- title: Spitfire
+  photo: https://i.imgur.com/U1DWjFi.png
+- title: BusWaker
+  photo: https://i.imgur.com/jLF1sVA.png
 ---
 
 <h1>Projects</h1>
 <p>Here you can see projects I'm proud of the most. If you want to see all, visit <a href="https://github.com/bartekpacia?tab=repositories">my Github profile</a>.</p>
 
 <div class="projects">
-    {%- for project in site.projects -%}
+    {%- for project in page.projects -%}
     <div class="project">
         <img src="{{ project.photo }}">
         <div class="text-container">
