@@ -4,4 +4,37 @@ title: Me
 permalink: /about/
 ---
 
-I'm Bartek and I'm seeking my place in this IT world.
+Hi!
+
+I'm Bartek, 17 and come from Poland.
+
+### Computers
+
+I've been interested in computers as far as I remember. When I was
+a kid, I could play various flash-based web games for hours. I can
+also recall me searching "hw to maek a comptur gaame" on Google, but...
+that's it. I think I was too young and too stupid back then. So I just
+kept playing computer games, what ultimately led me to almost 20k battles
+in World of Tanks (~3000 h).
+
+### Programming
+But a few years ago, in one of gaming magazines, there was a tutorial
+titled "MAKE YOUR OWN UNITY GAME!!!111one". [So I did](https://github.com/bartekpacia/my-first-game).
+It was one of these shitty "games" beginners make and then think they're 
+gamedev gods. But (fortunately I have to say) I didn't stop there. I taught
+myselft basics of C#, coded a few command line "adders and subtractors", some
+WPF program. Then I created [a stupid roll-a-boll game](https://github.com/bartekpacia/crazy-ball) 
+in Unity and installed it on computers in my primary school. All children 
+were fascinated.
+
+**And so was I**. I realized that with enough persistence and skills, I'm able to create
+almost everything I want. And that's what I like the most about programming.
+
+Since then, I made many other apps/programs/games. You can see everything (except the 
+ones marked as "private") on my GitHub.
+
+### Games
+From time to time I like to play Battlefield or something like that. But the games I truly love, are the outdoor ones involving modern technology. 
+
+I'm a great fan of [Geocaching](https://en.wikipedia.org/wiki/Geocaching) (more than 200 caches found, few hidden) and [Ingress](https://www.ingress.com). I play since 2014. Being on holidays without finding some caches and *hacking portals" seems unimaginable to me. And I hate Pokemon Go. 
+
