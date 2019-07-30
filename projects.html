@@ -5,24 +5,28 @@ permalink: /projects/
 projects:
 - title: Discover Rudy
   photo: https://i.imgur.com/h798TMC.png
+  description: My biggest project I've been developing for 3 years. Includes
+    mobile Android app and REST API.
 - title: Spitfire
   photo: https://i.imgur.com/U1DWjFi.png
+  description: Top-down shooter game written in libGDX using Java.
 - title: BusWaker
   photo: https://i.imgur.com/jLF1sVA.png
+  description: Simple app to wake up people on the bus. So they won't miss their
+    bus stops. Brilliant idea, isn't it?
 ---
 
 <h1>Projects</h1>
 <p>Here you can see projects I'm proud of the most. If you want to see all, visit <a href="https://github.com/bartekpacia?tab=repositories">my Github profile</a>.</p>
 
-<div class="projects">
+<div class="project-list">
     {%- for project in page.projects -%}
     <div class="project">
-        <img src="{{ project.photo }}">
-        <div class="text-container">
-            <h1 class="project-title">{{ project.title }}</h1>
-            <p>{{ project.content }}</p>
+        <img class="project__image" src="{{ project.photo }}">
+        <div class="project__container">
+            <h1 class="project__container__title">{{ project.title }}</h1>
+            <p class="project__container__description">{{ project.description }}</p>
         </div>
-
     </div>
     {%- endfor -%}
 </div>

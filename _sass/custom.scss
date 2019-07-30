@@ -63,68 +63,6 @@
   }
 }
 
-.projects {
-}
-
-.project {
-  display: flex;
-  margin-bottom: $spacing-unit / 2;
-
-  .text-container {
-    margin-left: $spacing-unit / 2;
-    display: flex;
-    flex-direction: column;
-
-    h1 {
-      display: inline-block;
-    }
-
-    p {
-    }
-  }
-
-  img {
-    width: 200px;
-    height: 150px;
-    border-radius: 12.5%;
-  }
-}
-// .project {
-//   /* border: 0.02rem solid white; */
-//   display: flex;
-//   flex: 1 1 0;
-//   padding: 0.5rem;
-//   margin: 0.5rem;
-//   flex-direction: column;
-//   align-items: center;
-
-//   p {
-//     padding-bottom: 1rem;
-//     text-align: center;
-//   }
-
-//   h2 {
-//     padding: 1rem;
-//   }
-
-//   img {
-//     width: 220px;
-//     height: auto;
-//   }
-// }
-
-#discover-rudy .title {
-  color: #669900;
-}
-
-#spitfire .title {
-  color: orangered;
-}
-
-#bus-waker .title {
-  color: orange;
-}
-
 @media (max-width: 800px) {
   #leading {
     font-size: 2rem;

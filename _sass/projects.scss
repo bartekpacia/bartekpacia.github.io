@@ -1,0 +1,41 @@
+.project-list {
+  margin-top: $spacing-unit;
+}
+
+.project {
+  display: flex;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.project__container {
+  margin-left: $spacing-unit / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.project__image {
+  width: 200px;
+  height: 150px;
+  border-radius: 12.5%;
+}
+
+.project__container__title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.project__container__description {
+  margin-bottom: 0;
+}
+
+#discover-rudy .title {
+  color: #669900;
+}
+
+#spitfire .title {
+  color: orangered;
+}
+
+#bus-waker .title {
+  color: orange;
+}
