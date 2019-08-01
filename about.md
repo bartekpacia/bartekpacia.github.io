@@ -26,7 +26,7 @@ gamedev gods. But (fortunately I have to say) I didn't stop there. I taught
 myselft basics of C#, coded a few command line "adders and subtractors", some
 WPF program. Then I created [a stupid roll-a-boll game](https://github.com/bartekpacia/crazy-ball)
 in Unity and installed it on computers in my primary school. All the children were in awe of my 
-wonderous (in their opinion) creation.
+seemingly wonderous creation.
 
 **And so was I**. I realized that with enough persistence and skill, I'm able to create
 almost everything I want. And that's what I like the most about programming.

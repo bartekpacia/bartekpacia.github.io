@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: articles
-title: Articles
-permalink: /articles/
+title: Posts
+permalink: /posts/
 ---
 
 From time to time I like to write something, be it programming, games or my thoughts.
