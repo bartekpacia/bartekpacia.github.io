@@ -28,8 +28,7 @@ WPF program. Then I created [a stupid roll-a-boll game](https://github.com/barte
 in Unity and installed it on computers in my primary school. All the children were in awe of my 
 seemingly wonderous creation.
 
-**And so was I**. I realized that with enough persistence and skill, I'm able to create
-almost everything I want. And that's what I like the most about programming.
+**And so was I**. I realized that with enough persistence and skill, I'm able to create anything I can think of. And that's what I like the most about programming.
 
 Since then, I made many other apps/programs/games. You can see everything (except the
 ones marked as "private") on my GitHub.
