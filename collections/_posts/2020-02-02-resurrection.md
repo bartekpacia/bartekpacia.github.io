@@ -4,7 +4,7 @@ title: "Resurrection?"
 date: 2020-02-02 21:23:36 +0100
 categories: post
 author: Bartek
-permalink: "/first-post"
+permalink: "/resurrection"
 ---
 
 Whoa, *I did it*.
