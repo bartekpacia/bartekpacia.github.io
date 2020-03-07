@@ -1,5 +1,5 @@
 ---
-title: bartekpacia.me
+title: pacia.tech
 photo: ../../assets/images/thumb_bartekpaciame.png
 ---
 

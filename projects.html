@@ -17,15 +17,15 @@ projects:
 ---
 
 <h1>Projects</h1>
-<p>Here you can see projects I'm proud of the most. If you want to see all, visit <a href="https://github.com/bartekpacia?tab=repositories">my Github profile</a>.</p>
+<p>Here you can see my projects I'm proud of the most. If you want to see more, visit <a href="https://github.com/bartekpacia?tab=repositories">my Github profile</a>.</p>
 
 <div class="project-list">
-    {%- for project in page.projects -%}
+    {%- for project in site.projects -%}
     <div class="project">
         <img class="project__image" src="{{ project.photo }}">
         <div class="project__container">
             <h1 class="project__container__title">{{ project.title }}</h1>
-            <p class="project__container__description">{{ project.description }}</p>
+            <p class="project__container__description">{{ project.content }}</p>
         </div>
     </div>
     {%- endfor -%}

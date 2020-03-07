@@ -65,37 +65,8 @@
   }
 }
 
-.technologies {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.technology {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-
-  p {
-    text-align: center;
-  }
-
-  img {
-    max-width: 220px;
-  }
-}
-
 @media (max-width: 800px) {
   #leading {
     font-size: 2rem;
-  }
-
-  .technologies {
-    flex-direction: column;
-  }
-
-  .projects {
-    flex-direction: column;
   }
 }
