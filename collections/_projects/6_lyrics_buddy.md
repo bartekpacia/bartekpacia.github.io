@@ -1,6 +1,6 @@
 ---
 title: Lyrics Buddy
-photo: ../../assets/images/thumb_rudy.png
+photo: ../../assets/images/thumb_lyrics_buddy.jpg
 github: https://github.com/bartekpacia/lyrics-buddy
 ---
 
