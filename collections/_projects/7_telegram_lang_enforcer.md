@@ -1,5 +1,5 @@
 ---
-title: Telegram Language Bot
+title: LangPolizei
 photo: ../../assets/images/thumb_lang_polizei.jpg
 github: https://github.com/bartekpacia/telegram-lang-enforcer
 ---
