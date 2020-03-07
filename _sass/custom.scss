@@ -33,10 +33,27 @@
   }
 }
 
-.about-android {
-  height: 400px;
-  background-color: #669900;
-  font-size: 2em;
+.index-container {
+  border: 2px solid #99cc00;
+  border-radius: 20px;
+  padding: $spacing-unit;
+}
+
+.index-container__text {
+  width: 70%;
+}
+
+.tech-icons {
+  display: flex;
+}
+
+.tech-icon {
+  height: 2em;
+  width: auto;
+}
+
+.pad-bottom {
+  margin-bottom: $spacing-unit;
 }
 
 .section {
