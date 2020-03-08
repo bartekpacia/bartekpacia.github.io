@@ -15,6 +15,23 @@
   margin: 2rem auto;
 }
 
+.leading__hoverable {
+  display: inline-block;
+
+  &:hover {
+    + .leading__hidden {
+      color: $grey-color;
+      opacity: 1;
+    }
+  }
+}
+
+.leading__hidden {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
 .about {
   margin: auto;
   display: flex;
@@ -35,8 +52,8 @@
 
 .index-container {
   border: 2px solid #99cc00;
-  border-radius: 20px;
   padding: $spacing-unit;
+  background: #eee;
 }
 
 .index-container__text {
