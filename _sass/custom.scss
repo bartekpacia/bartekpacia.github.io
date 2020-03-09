@@ -15,15 +15,25 @@
   margin: 2rem auto;
 }
 
-.leading__hoverable {
-  display: inline-block;
+.index-container {
+  border: 2px solid #99cc00;
+  padding: $spacing-unit;
+  background: #eee;
 
   &:hover {
-    + .leading__hidden {
+    :nth-child(2) {
       color: $grey-color;
       opacity: 1;
     }
   }
+}
+
+.index-container__text {
+  width: 70%;
+}
+
+.leading__hoverable {
+  display: inline-block;
 }
 
 .leading__hidden {
@@ -48,16 +58,6 @@
     max-height: 170px;
     margin-right: 2rem;
   }
-}
-
-.index-container {
-  border: 2px solid #99cc00;
-  padding: $spacing-unit;
-  background: #eee;
-}
-
-.index-container__text {
-  width: 70%;
 }
 
 .tech-icons {
