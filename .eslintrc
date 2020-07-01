@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors"
+  ],
+  "plugins": ["prettier", "promise", "import"],
+  "rules": {
+    "strict": "off",
+    "prettier/prettier": ["warn"],
+    "no-console": "off",
+    "prefer-destructuring": "warn",
+    "no-underscore-dangle": "off",
+    "no-empty-function": "off",
+    "no-useless-constructor": "off",
+    "no-empty": "warn",
+    "no-unused-vars": "warn",
+    "import/newline-after-import": "off",
+    "import/first": "off",
+    "import/prefer-default-export": "warn",
+    "prefer-template": "warn",
+    "class-methods-use-this": "off",
+    "no-use-before-define": "off",
+    "react/no-unescaped-entities": "off"
+  }
+}
