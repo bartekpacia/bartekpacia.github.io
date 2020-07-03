@@ -30,6 +30,7 @@
     "prefer-template": "warn",
     "class-methods-use-this": "off",
     "no-use-before-define": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "warn"
   }
 }

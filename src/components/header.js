@@ -1,35 +1,74 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled, { css } from "styled-components"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+const NavHeading = styled(Link)`
+  &&& {
+    color: #2d2d2d;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.25rem;
+    text-decoration: none;
+    font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+`
+
+const NavLink = styled(Link)`
+  &&& {
+    color: #2d2d2d;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin: 0 0.5rem 0 0;
+    padding: 0.7rem;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+
+    &.current-page {
+      border-bottom: 2px solid white;
+    }
+  }
+`
+
+const Header = () => {
+  const shortTitle = "Bartek Pacia"
+
+  return (
+    <header
+      css={css`
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: whitesmoke;
+        padding: 0.5rem;
+
+        @media (min-width: 800px) {
+          padding-left: calc((100vw - 800px) / 2);
+          padding-right: calc((100vw - 800px) / 2);
+        }
+      `}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+      <NavHeading href="/">{shortTitle}</NavHeading>
+      <nav>
+        <NavLink to="/about/" activeClassName="current-page">
+          #me
+        </NavLink>
+        <NavLink to="/projects" activeClassName="current-page">
+          #projects
+        </NavLink>
+        <NavLink to="/blog" activeClassName="current-page">
+          #blog
+        </NavLink>
+      </nav>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
