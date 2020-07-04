@@ -31,8 +31,13 @@ const Layout = ({ children }) => {
       <div>
         <main
           css={css`
-            border: 1px solid red;
+            // border: 1px solid red;
             margin-top: 2rem;
+
+            @media (max-width: 800px) {
+              margin-left: 1rem;
+              margin-right: 1rem;
+            }
 
             @media (min-width: 800px) {
               margin-left: calc((100vw - 800px) / 2);
@@ -44,7 +49,7 @@ const Layout = ({ children }) => {
         </main>
         <footer
           css={css`
-            border: 1px solid red;
+            // border: 1px solid red;
 
             @media (min-width: 800px) {
               margin-left: calc((100vw - 800px) / 2);

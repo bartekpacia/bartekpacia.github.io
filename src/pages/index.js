@@ -7,51 +7,108 @@ import SEO from "../components/seo"
 import styled, { css } from "styled-components"
 
 const Text = styled.p`
-  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Menlo, "Roboto Mono", Courier New, monospace;
 `
+
+const Top = () => {
+  return (
+    <div
+      css={css`
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      `}
+    >
+      <Text
+        css={css`
+          font-size: 2rem;
+        `}
+      >
+        Hi
+      </Text>
+
+      <Text
+        css={css`
+          margin-top: 1rem;
+        `}
+      >
+        Welcome to my humble corner of the web.
+      </Text>
+    </div>
+  )
+}
+
+const Tile = () => {
+  return (
+    <div
+      css={css`
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+
+        width: 150px;
+        height: 150px;
+        background-color: whitesmoke;
+      `}
+    ></div>
+  )
+}
+
+const WhoIam = () => {
+  return (
+    <div>
+      <Text
+        css={css`
+          margin-top: 2rem;
+          font-size: 1.5rem;
+        `}
+      >
+        Who I am
+      </Text>
+      <div
+        css={css`
+          display: flex;
+        `}
+      >
+        <Tile></Tile>
+        <Tile></Tile>
+        <Tile></Tile>
+      </div>
+    </div>
+  )
+}
+
+const WhatIdo = () => {
+  return (
+    <div>
+      <Text
+        css={css`
+          font-size: 1.5rem;
+        `}
+      >
+        What I do
+      </Text>
+      <div
+        css={css`
+          display: flex;
+        `}
+      >
+        <Tile></Tile>
+        <Tile></Tile>
+        <Tile></Tile>
+      </div>
+    </div>
+  )
+}
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div
-      css={css`
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        @media (max-width: 800px) {
-          flex-direction: column;
-        }
-      `}
-    >
-      <ProfileImage />
-      <div
-        css={css`
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        `}
-      >
-        <Text
-          css={css`
-            font-size: 2rem;
-            border: 1px solid green;
-          `}
-        >
-          Hi
-        </Text>
-
-        <Text
-          css={css`
-            border: 1px solid green;
-          `}
-        >
-          Welcome to my humble corner of the web.
-        </Text>
-      </div>
-    </div>
+    <Top />
+    <WhoIam />
+    <WhatIdo />
   </Layout>
 )
 

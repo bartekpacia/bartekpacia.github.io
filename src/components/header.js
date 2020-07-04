@@ -24,11 +24,31 @@ const NavLink = styled(Link)`
     font-weight: normal;
     margin: 0 0.5rem 0 0;
     padding: 0.7rem;
-    padding-bottom: 0.2rem;
     text-decoration: none;
     font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
+
+    position: relative;
+    text-decoration: none;
+
+    ::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    :hover::before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
 
     &.current-page {
       border-bottom: 2px solid white;
