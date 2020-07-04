@@ -2,20 +2,56 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import ProfileImage from "../components/image"
 import SEO from "../components/seo"
+import styled, { css } from "styled-components"
+
+const Text = styled.p`
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+`
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div
+      css={css`
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        @media (max-width: 800px) {
+          flex-direction: column;
+        }
+      `}
+    >
+      <ProfileImage />
+      <div
+        css={css`
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        `}
+      >
+        <Text
+          css={css`
+            font-size: 2rem;
+            border: 1px solid green;
+          `}
+        >
+          Hi
+        </Text>
+
+        <Text
+          css={css`
+            border: 1px solid green;
+          `}
+        >
+          Welcome to my humble corner of the web.
+        </Text>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
