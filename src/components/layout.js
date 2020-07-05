@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { css } from "styled-components"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./reset.css"
 
 const Layout = ({ children }) => {
@@ -47,20 +48,7 @@ const Layout = ({ children }) => {
         >
           {children}
         </main>
-        <footer
-          css={css`
-            // border: 1px solid red;
-
-            @media (min-width: 800px) {
-              margin-left: calc((100vw - 800px) / 2);
-              margin-right: calc((100vw - 800px) / 2);
-            }
-          `}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer />
       </div>
     </>
   )
