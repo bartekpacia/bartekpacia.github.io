@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi!
 
-I'm Bartek, 17 and come from Poland.
+I'm Bartek, 18 and come from Poland.
 
 ### Computers
 
