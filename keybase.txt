@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/bartekpacia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pacia.tech
+  * I am bartekpacia (https://keybase.io/bartekpacia) on keybase.
+  * I have a public key with fingerprint 5CD6 5B1A 6D77 54FD 6FBF  9C24 A1E9 A6DF D961 7CA7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010189102b3ebd32f2680411bc9271adbd7c76ba7e3fcfa88d5f481daf1958c2e4840a",
+      "fingerprint": "5cd65b1a6d7754fd6fbf9c24a1e9a6dfd9617ca7",
+      "host": "keybase.io",
+      "key_id": "a1e9a6dfd9617ca7",
+      "kid": "010189102b3ebd32f2680411bc9271adbd7c76ba7e3fcfa88d5f481daf1958c2e4840a",
+      "uid": "9c2c124aea5acf4aaa23f9cf70db3619",
+      "username": "bartekpacia"
+    },
+    "service": {
+      "hostname": "pacia.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1599996183,
+  "expire_in": 157680000,
+  "prev": "0cbce0be06a8f2e3c309d7dacd7e157e8b4c27367effaae06900a09a60fdf0eb",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1sFEUYx+9oxZbSKCotaUHplpcG22Nm3/eaJgSsvCjaGEyLVDezM7O9pe3t
+dW9podcmoJGqGErLobxUiW/FAiYIltYWo7R6JBCFVD1CjCgSUDDSI4aX2FSdbeCb
+H50vk3nm9//P/3ky27LTfBn+d650/3QOtezzn7pi+PQX/EUxzrDJBi4Y42rpxEbr
+CI26eq1FuCAHIICqBgFvCNQgAm/ysgpECA2s8QpExCAKVmQDKVQwsYlUlUimqEKC
+TKhJKuapqIoAccWcaYVrqBNxrLDLbCVMZMmASCaKIokmkU3D1DAvIkg1VjSJJkMF
+I4UJQ3bUU7BwBorSgGWzGjvoE/H+g/+fc6+bsGPZMGTxKJIQNkWEEC+wwKYCiCHI
+UPPAKHXCqJ4y2kCOS2sjCFuIay3m2EWjhak3W6+ZO9DEdcClOMTEEcd2bWzXsXrI
+dSPRoKdzN0Q8sIka+h0L3bDChA2SKRqpE7XsMBeEjMSu5XlCSWNLhqpQzNH1Ecuh
+uuURksKaZ8t7hzZ608EGpmC1QYGMVJOnAhaARhSCMFEow6lqiJhXBFmhpokQwzQA
+EGCjBiYxATU4r6uGsM0F2VMuqmGeUasmjNx1DuVap7zqP5Lu82f4ZuUUpFcn1+TV
+N60atz/vmnP3890zyft5vimZ99+tXN+b9fejDw5vHCy5tGLn7IKvslwt76H9Q6C9
+fmzj+nhZW+VnybUVqS/7524//Om0bR98U1T49ns5e6fuXzZ8/PWLVztym8t7Hi59
+/AK+PP+k4/5RPmPw3IuXhlp+Lewc6nmj5FBaYnW0MHGw+vCa0U2LMhaFA4+VFS3c
+XlVVujhQ8XPu+OzxJQtOdfHxqt65TjC0dOzlfE57Zfqmo/Hk1aff7zzfL2T/kyg/
+/W1ae/pFJW/tvNYTQ1vOVibb+8+ODMzMT287UDrp5pOjz54ZuLcMDWx5d9qyT1Jv
+koKWkfjW+IftdfDIF7teSmUct09f33MD9C0fSON38h0NFwKVtPfgM305o6PU6ZZm
+3S4ZnPOW/khW5/PfzSy6Pflykx1cPnYgsTukfwykyU9UN6f6/srs+ej3WO/K3GNP
+FX9/41hHovnr7DO3Hvht6hK/jmKpkZvi7gWvwaCydM+fh37pHrkvCRqu5Q6f9Pes
+1ObN0GvPL+afuzYc2zF/346Fq7jpXZly99HoiZKKzfLmtvwffkze+hc=
+=XvfD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bartekpacia
+
+==================================================================
