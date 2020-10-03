@@ -2,10 +2,23 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled, { css } from "styled-components"
+import Image from "gatsby-image"
+import useProfilePhoto from "../hooks/useProfilePhoto"
 
 const Text = styled.p`
   font-family: Menlo, "Roboto Mono", Courier New, monospace;
 `
+
+const ProfileImage = () => {
+  const photo = useProfilePhoto()
+
+  return (
+    <div>
+      <h1>Hello gatsby-image</h1>
+      <Image fixed={photo} />
+    </div>
+  )
+}
 
 const Top = () => {
   return (
@@ -19,6 +32,7 @@ const Top = () => {
         padding-bottom: 2rem;
       `}
     >
+      <ProfileImage />
       <Text
         css={css`
           font-size: 2rem;
