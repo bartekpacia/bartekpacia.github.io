@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled, { css } from "styled-components"
+import useSiteMetadata from "../hooks/useSiteMetadata"
 
 const NavHeading = styled(Link)`
   &&& {
@@ -9,7 +10,8 @@ const NavHeading = styled(Link)`
     display: block;
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     text-decoration: none;
     font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -57,7 +59,7 @@ const NavLink = styled(Link)`
 `
 
 const Header = () => {
-  const shortTitle = "Bartek Pacia"
+  const { shortTitle } = useSiteMetadata()
 
   return (
     <header

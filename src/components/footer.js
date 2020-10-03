@@ -4,12 +4,15 @@ import { css } from "styled-components"
 const Footer = () => (
   <footer
     css={css`
-      // border: 1px solid red;
-      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      color: #505050;
+      background: #eee;
+      padding: 0.5rem;
 
-      @media (min-width: 800px) {
-        margin-left: calc((100vw - 800px) / 2);
-        margin-right: calc((100vw - 800px) / 2);
+      @media (min-width: 600px) {
+        padding-right: calc((100vw - 600px) / 2);
+        padding-left: calc((100vw - 600px) / 2);
       }
     `}
   >

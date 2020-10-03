@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Bartek Pacia`,
-    description: `Bartek's personal page.`,
+    title: `Bartek's website`,
+    shortTitle: `Bartek Pacia`,
+    description: `Bartek Pacia's personal website.`,
     author: `@bartekpacia`,
+    lang: `en`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
