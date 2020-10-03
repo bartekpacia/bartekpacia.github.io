@@ -16,7 +16,12 @@
   "plugins": ["prettier", "promise", "import"],
   "rules": {
     "strict": "off",
-    "prettier/prettier": ["warn"],
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "no-console": "off",
     "prefer-destructuring": "warn",
     "no-underscore-dangle": "off",
