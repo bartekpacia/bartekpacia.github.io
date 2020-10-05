@@ -1,20 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styled, { css } from "styled-components"
+import { css } from "styled-components"
 import Image from "gatsby-image"
 import useProfilePhoto from "../hooks/useProfilePhoto"
-
-const Text = styled.p`
-  font-family: Menlo, "Roboto Mono", Courier New, monospace;
-`
 
 const ProfileImage = () => {
   const photo = useProfilePhoto()
 
   return (
     <div>
-      <h1>Hello gatsby-image</h1>
       <Image fixed={photo} />
     </div>
   )
@@ -33,21 +28,21 @@ const Top = () => {
       `}
     >
       <ProfileImage />
-      <Text
+      <div
         css={css`
           font-size: 2rem;
         `}
       >
         Hi
-      </Text>
+      </div>
 
-      <Text
+      <div
         css={css`
           margin-top: 1rem;
         `}
       >
         Welcome to my humble corner of the web.
-      </Text>
+      </div>
     </div>
   )
 }
@@ -59,7 +54,7 @@ const Tile = () => {
         margin-top: 0.5rem;
         margin-right: 1rem;
 
-        width: 150px;
+        flex-grow: 1;
         height: 150px;
         background-color: whitesmoke;
       `}
@@ -70,14 +65,14 @@ const Tile = () => {
 const WhoIam = () => {
   return (
     <div>
-      <Text
+      <div
         css={css`
           margin-top: 2rem;
           font-size: 1.5rem;
         `}
       >
         Who I am
-      </Text>
+      </div>
       <div
         css={css`
           display: flex;
@@ -94,13 +89,13 @@ const WhoIam = () => {
 const WhatIdo = () => {
   return (
     <div>
-      <Text
+      <div
         css={css`
           font-size: 1.5rem;
         `}
       >
         What I do
-      </Text>
+      </div>
       <div
         css={css`
           display: flex;

@@ -13,9 +13,6 @@ const NavHeading = styled(Link)`
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     text-decoration: none;
-    font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
   }
 `
 
@@ -27,10 +24,6 @@ const NavLink = styled(Link)`
     margin: 0 0.5rem 0 0;
     padding: 0.7rem;
     text-decoration: none;
-    font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
-
     position: relative;
     text-decoration: none;
 
@@ -79,13 +72,13 @@ const Header = () => {
       <NavHeading href="/">{shortTitle}</NavHeading>
       <nav>
         <NavLink to="/about/" activeClassName="current-page">
-          #me
+          me
         </NavLink>
         <NavLink to="/projects" activeClassName="current-page">
-          #projects
+          projects
         </NavLink>
         <NavLink to="/blog" activeClassName="current-page">
-          #blog
+          blog
         </NavLink>
       </nav>
     </header>

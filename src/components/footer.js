@@ -10,15 +10,13 @@ const Footer = () => (
       background: #eee;
       padding: 0.5rem;
 
-      @media (min-width: 600px) {
-        padding-right: calc((100vw - 600px) / 2);
-        padding-left: calc((100vw - 600px) / 2);
+      @media (min-width: 800px) {
+        padding-right: calc((100vw - 800px) / 2);
+        padding-left: calc((100vw - 800px) / 2);
       }
     `}
   >
-    © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+    © Bartek Pacia {new Date().getFullYear()}
   </footer>
 )
 
