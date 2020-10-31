@@ -3,51 +3,48 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled, { css } from "styled-components"
 import useSiteMetadata from "../hooks/useSiteMetadata"
+import typography from "../utils/theme"
 
 const NavHeading = styled(Link)`
-  &&& {
-    color: #2d2d2d;
-    display: block;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    text-decoration: none;
-  }
+  color: #2d2d2d;
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  text-decoration: none;
 `
 
 const NavLink = styled(Link)`
-  &&& {
-    color: #2d2d2d;
-    font-size: 1.1rem;
-    font-weight: normal;
-    margin: 0 0.5rem 0 0;
-    padding: 0.7rem;
-    text-decoration: none;
-    position: relative;
-    text-decoration: none;
+  color: #2d2d2d;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: 0 0.5rem 0 0;
+  padding: 0.7rem;
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
 
-    ::before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: #000;
-      visibility: hidden;
-      transform: scaleX(0);
-      transition: all 0.3s ease-in-out 0s;
-    }
+  ::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
 
-    :hover::before {
-      visibility: visible;
-      transform: scaleX(1);
-    }
+  :hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
 
-    &.current-page {
-      border-bottom: 2px solid white;
-    }
+  &.current-page {
+    border-bottom: 2px solid white;
   }
 `
 
