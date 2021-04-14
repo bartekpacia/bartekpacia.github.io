@@ -5,15 +5,13 @@ const useProfilePhoto = () => {
     query {
       file(relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
-          fixed(width: 256, height: 256) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: FIXED)
         }
       }
     }
   `)
 
-  return query.file.childImageSharp.fixed
+  return query.file.childImageSharp.gatsbyImageData
 }
 
 export default useProfilePhoto
