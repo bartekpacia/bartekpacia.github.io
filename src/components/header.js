@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled, { css } from "styled-components"
 import useSiteMetadata from "../hooks/useSiteMetadata"
-import typography from "../utils/theme"
 
 const NavHeading = styled(Link)`
   color: #2d2d2d;
