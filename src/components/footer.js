@@ -1,5 +1,12 @@
 import React from "react"
 import { css } from "styled-components"
+import {
+  FaGithub,
+  FaLinkedin,
+  FaYoutube,
+  FaStackOverflow,
+  FaTelegram,
+} from "react-icons/fa"
 
 const Footer = () => (
   <footer
@@ -17,6 +24,21 @@ const Footer = () => (
     `}
   >
     © Bartek Pacia {new Date().getFullYear()}
+    <a href="https://github.com/bartekpacia">
+      <FaGithub />
+    </a>
+    <a href="https://linkedin.com/in/bartekpacia">
+      <FaLinkedin />
+    </a>
+    <a href="https://www.youtube.com/c/BartekPacia">
+      <FaYoutube />
+    </a>
+    <a href="https://stackoverflow.com/users/7009800/bartek-pacia">
+      <FaStackOverflow />
+    </a>
+    <a href="https://t.me/bartekpacia">
+      <FaTelegram />
+    </a>
   </footer>
 )
 
