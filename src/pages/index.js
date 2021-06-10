@@ -1,18 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import Tile from "../components/tile"
 import SEO from "../components/seo"
 import { css } from "styled-components"
-import Image from "gatsby-image"
+
 import useProfilePhoto from "../hooks/useProfilePhoto"
 
 const ProfileImage = () => {
   const photo = useProfilePhoto()
 
-  return (
-    <div>
-      <Image fixed={photo} />
-    </div>
-  )
+  return <div></div>
 }
 
 const Top = () => {
@@ -47,22 +44,7 @@ const Top = () => {
   )
 }
 
-const Tile = () => {
-  return (
-    <div
-      css={css`
-        margin-top: 0.5rem;
-        margin-right: 1rem;
-
-        flex-grow: 1;
-        height: 150px;
-        background-color: whitesmoke;
-      `}
-    ></div>
-  )
-}
-
-const WhoIam = () => {
+const LatestArticles = () => {
   return (
     <div>
       <div
@@ -71,36 +53,9 @@ const WhoIam = () => {
           font-size: 1.5rem;
         `}
       >
-        Who I am
+        Latest articles
       </div>
-      <div
-        css={css`
-          display: flex;
-        `}
-      >
-        <Tile></Tile>
-        <Tile></Tile>
-        <Tile></Tile>
-      </div>
-    </div>
-  )
-}
-
-const WhatIdo = () => {
-  return (
-    <div>
-      <div
-        css={css`
-          font-size: 1.5rem;
-        `}
-      >
-        What I do
-      </div>
-      <div
-        css={css`
-          display: flex;
-        `}
-      >
+      <div css={css``}>
         <Tile></Tile>
         <Tile></Tile>
         <Tile></Tile>
@@ -113,8 +68,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Top />
-    <WhoIam />
-    <WhatIdo />
+    <LatestArticles />
   </Layout>
 )
 
