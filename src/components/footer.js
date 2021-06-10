@@ -6,6 +6,7 @@ import {
   FaYoutube,
   FaStackOverflow,
   FaTelegram,
+  FaEnvelope,
 } from "react-icons/fa"
 
 const Footer = () => (
@@ -38,6 +39,9 @@ const Footer = () => (
     </a>
     <a href="https://t.me/bartekpacia">
       <FaTelegram />
+    </a>
+    <a href="mailto:barpac02@gmail.com">
+      <FaEnvelope />
     </a>
   </footer>
 )
