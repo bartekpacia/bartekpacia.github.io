@@ -9,10 +9,12 @@ permalink: "/centering-paragraph"
 
 ### I hate CSS.
 
-I've just spent about 2 hours trying to... yeah, you guessed.
-I couldn't center `<p>` in a `div`, vertically and horizontally.
+I've just spent about 2 hours trying to... yeah, you guessed. I couldn't center
+`<p>` in a `div`, vertically and horizontally.
 
-But finally, I managed to do it. Here's a [link to Codepen](https://codepen.io/bartekpacia/pen/BXQgyv)
+But finally, I managed to do it. Here's a [link to Codepen][codepen_link]
 demonstrating my solution.
 
-Enjoy! 
+Enjoy!
+
+[codepen_link]: https://codepen.io/bartekpacia/pen/BXQgyv
