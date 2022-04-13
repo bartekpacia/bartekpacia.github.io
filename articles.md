@@ -4,7 +4,8 @@
 
 layout: articles
 title: Posts
-permalink: /posts/
+permalink: /posts
 ---
 
-From time to time I like to write something, be it programming, games or my thoughts.
+From time to time I like to write something, be it programming, games or my
+thoughts.

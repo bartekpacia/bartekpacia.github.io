@@ -19,7 +19,7 @@ projects:
 
 <h1>Projects</h1>
 <p>
-  Here you can see some of my projects. For more, visit 
+  Here you can see some of my projects. For more, visit
   <a href="https://github.com/bartekpacia?tab=repositories">my Github profile</a
   >.
 </p>
@@ -33,13 +33,17 @@ projects:
       <div class="project__container__description">{{ project.content }}</div>
       <div class="project__buttons__container">
         {%- if project.play_store -%}
-          <a class="project__button" href="{{ project.play_store }}"><i class="fab fa-google-play fa-2x"></i></a>
-        {%- endif -%}
-        {%- if project.github -%}
-          <a class="project__button" href="{{ project.github }}"><i class="fab fa-github fa-2x"></i></a>
-        {%- endif -%}
-        {%- if project.website -%}
-          <a class="project__button" href="{{ project.website }}"><i class="far fa-arrow-alt-circle-right fa-2x"></i></a>
+        <a class="project__button" href="{{ project.play_store }}"
+          ><i class="fab fa-google-play fa-2x"></i
+        ></a>
+        {%- endif -%} {%- if project.github -%}
+        <a class="project__button" href="{{ project.github }}"
+          ><i class="fab fa-github fa-2x"></i
+        ></a>
+        {%- endif -%} {%- if project.website -%}
+        <a class="project__button" href="{{ project.website }}"
+          ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+        ></a>
         {%- endif -%}
       </div>
     </div>

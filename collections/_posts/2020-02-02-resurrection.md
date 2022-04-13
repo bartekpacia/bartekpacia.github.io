@@ -7,7 +7,7 @@ author: Bartek
 permalink: "/resurrection"
 ---
 
-Whoa, *I did it*.
+Whoa, _I did it_.
 
 I've just achieved something very important for me and I hope it will give me
 motivation to resurrect this site.
