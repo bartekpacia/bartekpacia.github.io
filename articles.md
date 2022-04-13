@@ -7,5 +7,4 @@ title: Posts
 permalink: /posts/
 ---
 
-From time to time I like to write something, be it programming, games or simply
-my thoughts.
+From time to time I like to write something, be it programming, games or my thoughts.
