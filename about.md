@@ -6,7 +6,7 @@ permalink: /about
 
 Hi!
 
-I'm Bartek, 19 and I live in Poland.
+I'm Bartek, 20 and I live in Poland.
 
 ### Computers
 
