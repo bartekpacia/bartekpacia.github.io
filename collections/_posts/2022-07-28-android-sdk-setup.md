@@ -97,6 +97,15 @@ Reload your shell.
 
 Now let's run `sdkmanager` again and let's download some useful stuff:
 
+**System images**
+
+- `'system-images;android-33;google_apis;arm64-v8a'`
+- `'system-images;android-32;google_apis;arm64-v8a'`
+- `'system-images;android-31;google_apis;arm64-v8a'`
+- `'system-images;android-30;google_apis;arm64-v8a'`
+- `'system-images;android-29;google_apis;arm64-v8a'`
+- `'system-images;android-28;google_apis;arm64-v8a'`
+
 // TODO: define useful stuff
 
 [studio]: https://developer.android.com/studio
