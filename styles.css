@@ -1,0 +1,32 @@
+body {
+  padding: 2em;
+}
+
+a {
+  display: block;
+  padding: 0.5em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+
+  h2 {
+    color: #efefef;
+  }
+
+  p {
+    color: #efefef;
+  }
+
+  a {
+    color: #efefef;
+  }
+}
