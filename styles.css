@@ -1,3 +1,15 @@
+:root {
+  --text: #121212;
+  --background: #efefef;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #efefef;
+    --background: #121212;
+  }
+}
+
 body {
   padding: 2em;
 }
@@ -5,6 +17,8 @@ body {
 a {
   display: block;
   padding: 0.5em;
+  text-decoration: none;
+  color: var(--text);
 }
 
 .footer {
@@ -13,20 +27,48 @@ a {
   right: 1em;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
+    background-color: var(--background);
   }
 
   h2 {
-    color: #efefef;
+    color: var(--text);
   }
 
   p {
-    color: #efefef;
+    color: var(--text);
   }
 
   a {
-    color: #efefef;
+    color: var(--text);
+  }
+}
+
+.rainbow:hover {
+  background-repeat: repeat-x;
+  background: linear-gradient(
+    to right,
+    #eb5252,
+    #f78f2f,
+    #f4c151,
+    #75d850,
+    #6284ff,
+    #eb5252
+  );
+  animation: rainbow 10s linear infinite;
+  background-size: 200% 100% !important;
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 800% 0;
   }
 }
