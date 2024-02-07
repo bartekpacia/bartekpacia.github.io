@@ -74,11 +74,9 @@ ul {
 }
 
 .rainbow-tile {
-  /* z-index: 1; */
-  background-color: white;
+  background-color: var(--background);
 }
 
 .rainbow-tile:hover {
-  /* z-index: 0; */
   background-color: transparent;
 }
