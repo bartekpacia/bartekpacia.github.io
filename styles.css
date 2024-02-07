@@ -50,7 +50,7 @@ ul {
   }
 }
 
-.rainbow:hover {
+.rainbow {
   background-repeat: repeat-x;
   background: linear-gradient(
     to right,
@@ -71,4 +71,14 @@ ul {
   100% {
     background-position: 800% 0;
   }
+}
+
+.rainbow-tile {
+  /* z-index: 1; */
+  background-color: white;
+}
+
+.rainbow-tile:hover {
+  /* z-index: 0; */
+  background-color: transparent;
 }
