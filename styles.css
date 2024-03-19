@@ -12,6 +12,9 @@
 
 body {
   padding: 2em;
+  font-size: 1.2em;
+  line-height: 1.62;
+  font-family: sans-serif;
 }
 
 a {
